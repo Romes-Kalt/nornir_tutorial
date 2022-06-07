@@ -1,0 +1,13 @@
+---
+core:
+  num_workers: 100        # how many threads
+
+logging:
+  enabled: False
+
+inventory:
+  plugin: nornir.plugins.inventory.simple.SimpleInventory     # any own inventories or db-connections can be added here
+  options:
+    host_file: "figol_hosts.yaml"
+    group_file: "groups.yaml"
+    defaults_file: "figol_defaults.yaml"

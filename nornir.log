@@ -1,0 +1,498 @@
+2022-06-07 01:47:37,648 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 12 hosts
+2022-06-07 01:58:17,430 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2022-06-07 02:00:44,597 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2022-06-07 02:03:40,809 -  nornir.core -     INFO -        run() - Running task 'Saying goodbye in a very friendly manner' with args {'text': 'buhbye!'} on 2 hosts
+2022-06-07 02:07:30,083 -  nornir.core -     INFO -        run() - Running task 'Saying goodbye in a very friendly manner' with args {'text': 'buhbye!'} on 2 hosts
+2022-06-07 02:14:36,741 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2022-06-07 02:14:36,743 -  nornir.core -     INFO -        run() - Running task 'Saying goodbye in a very friendly manner' with args {'text': 'buhbye!'} on 2 hosts
+2022-06-07 02:16:16,131 -  nornir.core -     INFO -        run() - Running task 'Saying goodbye in a very friendly manner' with args {'text': 'buhbye!'} on 2 hosts
+2022-06-07 02:16:25,153 -  nornir.core -     INFO -        run() - Running task 'Saying goodbye in a very friendly manner' with args {} on 2 hosts
+2022-06-07 02:17:55,212 -  nornir.core -     INFO -        run() - Running task 'Saying goodbye in a very friendly manner' with args {} on 2 hosts
+2022-06-07 02:19:29,554 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2022-06-07 02:19:29,555 -  nornir.core -     INFO -        run() - Running task 'Saying goodbye in a very friendly manner' with args {} on 2 hosts
+2022-06-07 02:19:41,206 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2022-06-07 02:19:41,207 -  nornir.core -     INFO -        run() - Running task 'Saying goodbye in a very friendly manner' with args {} on 2 hosts
+2022-06-07 02:19:41,212 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'Saying goodbye in a very friendly manner' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: say() missing 1 required positional argument: 'text'
+
+2022-06-07 02:19:41,212 - nornir.core.task -    ERROR -      start() - Host 'host1.cmh': task 'Saying goodbye in a very friendly manner' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+TypeError: say() missing 1 required positional argument: 'text'
+
+2022-06-07 02:20:06,637 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2022-06-07 02:20:06,638 -  nornir.core -     INFO -        run() - Running task 'Saying goodbye in a very friendly manner' with args {'text': 'buhbye!'} on 2 hosts
+2022-06-07 02:30:33,125 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5} on 2 hosts
+2022-06-07 02:30:54,734 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 4} on 2 hosts
+2022-06-07 02:31:11,845 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 4} on 2 hosts
+2022-06-07 02:31:25,419 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5} on 2 hosts
+2022-06-07 02:31:41,830 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5} on 2 hosts
+2022-06-07 02:31:49,038 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 4} on 2 hosts
+2022-06-07 02:32:21,879 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5} on 2 hosts
+2022-06-07 02:40:41,453 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2022-06-07 02:40:41,454 -  nornir.core -     INFO -        run() - Running task 'Saying goodbye in a very friendly manner' with args {'text': 'buhbye!'} on 2 hosts
+2022-06-07 02:40:41,455 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 02:42:06,233 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5} on 2 hosts
+2022-06-07 02:43:30,183 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 02:44:29,071 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 02:45:16,649 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2022-06-07 02:45:16,651 -  nornir.core -     INFO -        run() - Running task 'Saying goodbye in a very friendly manner' with args {'text': 'buhbye!'} on 2 hosts
+2022-06-07 02:45:16,651 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 10:13:13,378 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 10:13:23,193 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 10:13:23,199 - nornir.core.task -    ERROR -      start() - Host 'host1.cmh': task 'Counting to 5 and using the say function to greet and say bye' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\anaconda\envs\nornir_env\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\AppData\Local\Temp\ipykernel_23320\3508629752.py", line 7, in greet_and_count_new
+    severity_level=logging.DEBUG,
+NameError: name 'logging' is not defined
+
+2022-06-07 10:13:23,199 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'Counting to 5 and using the say function to greet and say bye' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\anaconda\envs\nornir_env\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\AppData\Local\Temp\ipykernel_23320\3508629752.py", line 7, in greet_and_count_new
+    severity_level=logging.DEBUG,
+NameError: name 'logging' is not defined
+
+2022-06-07 10:13:31,638 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 10:15:18,222 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 10:16:26,424 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 10:17:19,865 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 10:18:04,767 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 10:20:05,357 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 12 hosts
+2022-06-07 10:20:23,144 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 10:21:16,223 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 10:21:16,225 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'The say function is called with the greet parameter' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\anaconda\envs\nornir_env\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\AppData\Local\Temp\ipykernel_23320\340557457.py", line 5, in say_new
+    raise Exception("I can't say anything right now")
+Exception: I can't say anything right now
+
+2022-06-07 10:21:16,225 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'Counting to 5 and using the say function to greet and say bye' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\anaconda\envs\nornir_env\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\AppData\Local\Temp\ipykernel_23320\3508629752.py", line 5, in greet_and_count_new
+    task.run(  # call the say function
+  File "C:\Users\roman\Python\anaconda\envs\nornir_env\lib\site-packages\nornir\core\task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: The say function is called with the greet parameter (failed)
+
+
+2022-06-07 10:22:07,269 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 10:22:07,271 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'The say function is called with the greet parameter' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\anaconda\envs\nornir_env\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\AppData\Local\Temp\ipykernel_23320\2856640965.py", line 5, in say_new
+    raise Exception(f"An Exception was raised on host {exception_host_name}")
+Exception: An Exception was raised on host host2.cmh
+
+2022-06-07 10:22:07,271 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'Counting to 5 and using the say function to greet and say bye' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\anaconda\envs\nornir_env\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\AppData\Local\Temp\ipykernel_23320\3508629752.py", line 5, in greet_and_count_new
+    task.run(  # call the say function
+  File "C:\Users\roman\Python\anaconda\envs\nornir_env\lib\site-packages\nornir\core\task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: The say function is called with the greet parameter (failed)
+
+
+2022-06-07 10:27:37,599 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2022-06-07 10:27:41,688 -  nornir.core -     INFO -        run() - Running task 'Saying goodbye in a very friendly manner' with args {'text': 'buhbye!'} on 2 hosts
+2022-06-07 10:27:48,733 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 10:28:20,502 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 10:28:20,503 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'The say function is called with the greet parameter' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\anaconda\envs\nornir_env\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\AppData\Local\Temp\ipykernel_23320\2856640965.py", line 5, in say_new
+    raise Exception(f"An Exception was raised on host {exception_host_name}")
+Exception: An Exception was raised on host host2.cmh
+
+2022-06-07 10:28:20,503 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'Counting to 5 and using the say function to greet and say bye' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\anaconda\envs\nornir_env\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\AppData\Local\Temp\ipykernel_23320\3508629752.py", line 5, in greet_and_count_new
+    task.run(  # call the say function
+  File "C:\Users\roman\Python\anaconda\envs\nornir_env\lib\site-packages\nornir\core\task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: The say function is called with the greet parameter (failed)
+
+
+2022-06-07 10:54:11,454 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2022-06-07 10:54:11,455 -  nornir.core -     INFO -        run() - Running task 'Saying goodbye in a very friendly manner' with args {'text': 'buhbye!'} on 2 hosts
+2022-06-07 10:54:11,456 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 10:54:11,467 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 10:54:11,469 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'The say function is called with the greet parameter' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\nornir_intro.py", line 227, in say_new
+    raise Exception(f"An Exception was raised on host {exception_host_name}")
+Exception: An Exception was raised on host host2.cmh
+
+2022-06-07 10:54:11,469 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'Counting to 5 and using the say function to greet and say bye' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\nornir_intro.py", line 237, in greet_and_count_new
+    task.run(  # call the say function
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: The say function is called with the greet parameter (failed)
+
+
+2022-06-07 10:58:11,296 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2022-06-07 10:58:11,298 -  nornir.core -     INFO -        run() - Running task 'Saying goodbye in a very friendly manner' with args {'text': 'buhbye!'} on 2 hosts
+2022-06-07 10:58:11,298 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 10:58:11,308 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 10:58:11,309 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'The say function is called with the greet parameter' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\nornir_intro.py", line 227, in say_new
+    raise Exception(f"An Exception was raised on host {exception_host_name}")
+Exception: An Exception was raised on host host2.cmh
+
+2022-06-07 10:58:11,309 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'Counting to 5 and using the say function to greet and say bye' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\nornir_intro.py", line 237, in greet_and_count_new
+    task.run(  # call the say function
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: The say function is called with the greet parameter (failed)
+
+
+2022-06-07 10:58:43,568 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2022-06-07 10:58:43,568 -  nornir.core -     INFO -        run() - Running task 'Saying goodbye in a very friendly manner' with args {'text': 'buhbye!'} on 2 hosts
+2022-06-07 10:58:43,569 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 10:58:43,578 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 10:58:43,579 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'The say function is called with the greet parameter' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\nornir_intro.py", line 227, in say_new
+    raise Exception(f"An Exception was raised on host {exception_host_name}")
+Exception: An Exception was raised on host host2.cmh
+
+2022-06-07 10:58:43,579 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'Counting to 5 and using the say function to greet and say bye' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\nornir_intro.py", line 237, in greet_and_count_new
+    task.run(  # call the say function
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: The say function is called with the greet parameter (failed)
+
+
+2022-06-07 11:04:41,281 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2022-06-07 11:04:41,282 -  nornir.core -     INFO -        run() - Running task 'Saying goodbye in a very friendly manner' with args {'text': 'buhbye!'} on 2 hosts
+2022-06-07 11:04:41,283 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 11:04:41,292 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 11:04:41,293 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'The say function is called with the greet parameter' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\nornir_intro.py", line 227, in say_new
+    raise Exception(f"An Exception was raised on host {exception_host_name}")
+Exception: An Exception was raised on host host2.cmh
+
+2022-06-07 11:04:41,293 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'Counting to 5 and using the say function to greet and say bye' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\nornir_intro.py", line 237, in greet_and_count_new
+    task.run(  # call the say function
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: The say function is called with the greet parameter (failed)
+
+
+2022-06-07 11:05:10,406 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2022-06-07 11:05:10,408 -  nornir.core -     INFO -        run() - Running task 'Saying goodbye in a very friendly manner' with args {'text': 'buhbye!'} on 2 hosts
+2022-06-07 11:05:10,410 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 11:05:10,418 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 11:05:10,420 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'The say function is called with the greet parameter' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\nornir_intro.py", line 227, in say_new
+    raise Exception(f"An Exception was raised on host {exception_host_name}")
+Exception: An Exception was raised on host host2.cmh
+
+2022-06-07 11:05:10,420 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'Counting to 5 and using the say function to greet and say bye' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\nornir_intro.py", line 237, in greet_and_count_new
+    task.run(  # call the say function
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: The say function is called with the greet parameter (failed)
+
+
+2022-06-07 11:05:24,654 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2022-06-07 11:05:24,655 -  nornir.core -     INFO -        run() - Running task 'Saying goodbye in a very friendly manner' with args {'text': 'buhbye!'} on 2 hosts
+2022-06-07 11:05:24,656 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 11:05:24,664 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 11:05:24,665 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'The say function is called with the greet parameter' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\nornir_intro.py", line 227, in say_new
+    raise Exception(f"An Exception was raised on host {exception_host_name}")
+Exception: An Exception was raised on host host2.cmh
+
+2022-06-07 11:05:24,665 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'Counting to 5 and using the say function to greet and say bye' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\nornir_intro.py", line 237, in greet_and_count_new
+    task.run(  # call the say function
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: The say function is called with the greet parameter (failed)
+
+
+2022-06-07 11:38:41,624 -  nornir.core -     INFO -        run() - Running task 'hi' with args {} on 2 hosts
+2022-06-07 11:39:20,857 -  nornir.core -     INFO -        run() - Running task 'hi' with args {} on 2 hosts
+2022-06-07 11:39:56,144 -  nornir.core -     INFO -        run() - Running task 'hi' with args {} on 2 hosts
+2022-06-07 11:41:37,216 -  nornir.core -     INFO -        run() - Running task 'hi' with args {} on 2 hosts
+2022-06-07 11:51:59,528 -  nornir.core -     INFO -        run() - Running task 'hi' with args {} on 2 hosts
+2022-06-07 11:59:36,027 -  nornir.core -     INFO -        run() - Running task 'new_task' with args {} on 2 hosts
+2022-06-07 12:00:56,203 -  nornir.core -     INFO -        run() - Running task 'hi' with args {} on 2 hosts
+2022-06-07 12:02:13,010 -  nornir.core -     INFO -        run() - Running task 'hi' with args {} on 2 hosts
+2022-06-07 12:03:08,816 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2022-06-07 12:03:08,848 -  nornir.core -     INFO -        run() - Running task 'Saying goodbye in a very friendly manner' with args {'text': 'buhbye!'} on 2 hosts
+2022-06-07 12:03:08,900 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 12:03:09,052 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 12:03:09,055 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'The say function is called with the greet parameter' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\anaconda\envs\nornir_env\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\AppData\Local\Temp\ipykernel_22608\2856640965.py", line 5, in say_new
+    raise Exception(f"An Exception was raised on host {exception_host_name}")
+Exception: An Exception was raised on host host2.cmh
+
+2022-06-07 12:03:09,056 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'Counting to 5 and using the say function to greet and say bye' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\anaconda\envs\nornir_env\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\AppData\Local\Temp\ipykernel_22608\3508629752.py", line 5, in greet_and_count_new
+    task.run(  # call the say function
+  File "C:\Users\roman\Python\anaconda\envs\nornir_env\lib\site-packages\nornir\core\task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: The say function is called with the greet parameter (failed)
+
+
+2022-06-07 12:03:09,286 -  nornir.core -     INFO -        run() - Running task 'new_task' with args {} on 2 hosts
+2022-06-07 12:03:35,482 -  nornir.core -     INFO -        run() - Running task 'new_task' with args {} on 2 hosts
+2022-06-07 12:03:38,483 -  nornir.core -     INFO -        run() - Running task 'new_task' with args {} on 2 hosts
+2022-06-07 12:20:31,472 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2022-06-07 12:20:31,473 -  nornir.core -     INFO -        run() - Running task 'Saying goodbye in a very friendly manner' with args {'text': 'buhbye!'} on 2 hosts
+2022-06-07 12:20:31,476 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 12:20:31,486 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 12:20:31,488 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'The say function is called with the greet parameter' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\nornir_intro.py", line 228, in say_new
+    raise Exception(f"An Exception was raised on host {exception_host_name}")
+Exception: An Exception was raised on host host2.cmh
+
+2022-06-07 12:20:31,488 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'Counting to 5 and using the say function to greet and say bye' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\nornir_intro.py", line 238, in greet_and_count_new
+    task.run(  # call the say function
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: The say function is called with the greet parameter (failed)
+
+
+2022-06-07 12:20:31,492 -  nornir.core -     INFO -        run() - Running task 'new_task' with args {} on 2 hosts
+2022-06-07 12:20:31,493 -  nornir.core -     INFO -        run() - Running task 'new_task' with args {} on 2 hosts
+2022-06-07 12:20:31,493 -  nornir.core -     INFO -        run() - Running task 'new_task' with args {} on 2 hosts
+2022-06-07 12:22:12,425 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2022-06-07 12:22:12,426 -  nornir.core -     INFO -        run() - Running task 'Saying goodbye in a very friendly manner' with args {'text': 'buhbye!'} on 2 hosts
+2022-06-07 12:22:12,427 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 12:22:12,436 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 12:22:12,437 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'The say function is called with the greet parameter' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\nornir_intro.py", line 228, in say_new
+    raise Exception(f"An Exception was raised on host {exception_host_name}")
+Exception: An Exception was raised on host host2.cmh
+
+2022-06-07 12:22:12,437 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'Counting to 5 and using the say function to greet and say bye' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\nornir_intro.py", line 238, in greet_and_count_new
+    task.run(  # call the say function
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: The say function is called with the greet parameter (failed)
+
+
+2022-06-07 12:22:12,453 -  nornir.core -     INFO -        run() - Running task 'new_task' with args {} on 2 hosts
+2022-06-07 12:22:12,455 -  nornir.core -     INFO -        run() - Running task 'new_task' with args {} on 2 hosts
+2022-06-07 12:22:12,456 -  nornir.core -     INFO -        run() - Running task 'new_task' with args {} on 2 hosts
+2022-06-07 12:32:15,282 -  nornir.core -     INFO -        run() - Running task 'hi!' with args {'greet': 'hi'} on 12 hosts
+2022-06-07 12:32:15,319 -  nornir.core -     INFO -        run() - Running task 'bye!' with args {'greet': 'bye'} on 12 hosts
+2022-06-07 12:49:13,523 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2022-06-07 12:49:13,525 -  nornir.core -     INFO -        run() - Running task 'Saying goodbye in a very friendly manner' with args {'text': 'buhbye!'} on 2 hosts
+2022-06-07 12:49:13,525 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 12:49:13,535 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 12:49:13,535 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'The say function is called with the greet parameter' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\nornir_intro.py", line 231, in say_new
+    raise Exception(f"An Exception was raised on host {exception_host_name}")
+Exception: An Exception was raised on host host2.cmh
+
+2022-06-07 12:49:13,536 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'Counting to 5 and using the say function to greet and say bye' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\nornir_intro.py", line 241, in greet_and_count_new
+    task.run(  # call the say function
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: The say function is called with the greet parameter (failed)
+
+
+2022-06-07 12:49:13,539 -  nornir.core -     INFO -        run() - Running task 'new_task' with args {} on 2 hosts
+2022-06-07 12:49:13,540 -  nornir.core -     INFO -        run() - Running task 'new_task' with args {} on 2 hosts
+2022-06-07 12:49:13,540 -  nornir.core -     INFO -        run() - Running task 'new_task' with args {} on 2 hosts
+2022-06-07 12:49:13,541 -  nornir.core -     INFO -        run() - Running task 'hi!' with args {'greet': 'hi'} on 12 hosts
+2022-06-07 12:49:13,542 -  nornir.core -     INFO -        run() - Running task 'bye!' with args {'greet': 'bye'} on 12 hosts
+2022-06-07 12:49:25,227 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2022-06-07 12:49:25,229 -  nornir.core -     INFO -        run() - Running task 'Saying goodbye in a very friendly manner' with args {'text': 'buhbye!'} on 2 hosts
+2022-06-07 12:49:25,229 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 12:49:25,237 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 12:49:25,238 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'The say function is called with the greet parameter' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\nornir_intro.py", line 231, in say_new
+    raise Exception(f"An Exception was raised on host {exception_host_name}")
+Exception: An Exception was raised on host host2.cmh
+
+2022-06-07 12:49:25,238 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'Counting to 5 and using the say function to greet and say bye' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\nornir_intro.py", line 241, in greet_and_count_new
+    task.run(  # call the say function
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: The say function is called with the greet parameter (failed)
+
+
+2022-06-07 12:49:25,241 -  nornir.core -     INFO -        run() - Running task 'new_task' with args {} on 2 hosts
+2022-06-07 12:49:25,243 -  nornir.core -     INFO -        run() - Running task 'new_task' with args {} on 2 hosts
+2022-06-07 12:49:25,257 -  nornir.core -     INFO -        run() - Running task 'new_task' with args {} on 2 hosts
+2022-06-07 12:49:25,259 -  nornir.core -     INFO -        run() - Running task 'hi!' with args {'greet': 'hi'} on 12 hosts
+2022-06-07 12:49:25,261 -  nornir.core -     INFO -        run() - Running task 'bye!' with args {'greet': 'bye'} on 12 hosts
+2022-06-07 12:50:02,953 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2022-06-07 12:50:02,956 -  nornir.core -     INFO -        run() - Running task 'Saying goodbye in a very friendly manner' with args {'text': 'buhbye!'} on 2 hosts
+2022-06-07 12:50:02,956 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 12:50:02,965 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 12:50:02,966 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'The say function is called with the greet parameter' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\nornir_intro.py", line 231, in say_new
+    raise Exception(f"An Exception was raised on host {exception_host_name}")
+Exception: An Exception was raised on host host2.cmh
+
+2022-06-07 12:50:02,966 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'Counting to 5 and using the say function to greet and say bye' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\nornir_intro.py", line 241, in greet_and_count_new
+    task.run(  # call the say function
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: The say function is called with the greet parameter (failed)
+
+
+2022-06-07 12:50:02,970 -  nornir.core -     INFO -        run() - Running task 'new_task' with args {} on 2 hosts
+2022-06-07 12:50:02,971 -  nornir.core -     INFO -        run() - Running task 'new_task' with args {} on 2 hosts
+2022-06-07 12:50:02,971 -  nornir.core -     INFO -        run() - Running task 'new_task' with args {} on 2 hosts
+2022-06-07 12:50:02,972 -  nornir.core -     INFO -        run() - Running task 'hi!' with args {'greet': 'hi'} on 12 hosts
+2022-06-07 12:50:02,973 -  nornir.core -     INFO -        run() - Running task 'bye!' with args {'greet': 'bye'} on 12 hosts
+2022-06-07 13:00:42,216 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2022-06-07 13:00:42,217 -  nornir.core -     INFO -        run() - Running task 'Saying goodbye in a very friendly manner' with args {'text': 'buhbye!'} on 2 hosts
+2022-06-07 13:00:42,218 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 13:00:42,227 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 13:00:42,229 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'The say function is called with the greet parameter' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\nornir_intro.py", line 230, in say_new
+    raise Exception(f"An Exception was raised on host {exception_host_name}")
+Exception: An Exception was raised on host host2.cmh
+
+2022-06-07 13:00:42,229 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'Counting to 5 and using the say function to greet and say bye' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\nornir_intro.py", line 240, in greet_and_count_new
+    task.run(  # call the say function
+  File "C:\Users\roman\Python\PyCharmProjects\nornir_intro\venv\lib\site-packages\nornir\core\task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: The say function is called with the greet parameter (failed)
+
+
+2022-06-07 13:00:42,235 -  nornir.core -     INFO -        run() - Running task 'new_task' with args {} on 2 hosts
+2022-06-07 13:00:42,237 -  nornir.core -     INFO -        run() - Running task 'new_task' with args {} on 2 hosts
+2022-06-07 13:00:42,239 -  nornir.core -     INFO -        run() - Running task 'new_task' with args {} on 2 hosts
+2022-06-07 13:00:42,240 -  nornir.core -     INFO -        run() - Running task 'hi!' with args {'greet': 'hi'} on 12 hosts
+2022-06-07 13:00:42,249 -  nornir.core -     INFO -        run() - Running task 'bye!' with args {'greet': 'bye'} on 12 hosts
+2022-06-07 13:05:23,182 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2022-06-07 13:05:23,214 -  nornir.core -     INFO -        run() - Running task 'Saying goodbye in a very friendly manner' with args {'text': 'buhbye!'} on 2 hosts
+2022-06-07 13:05:23,260 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 13:05:23,414 -  nornir.core -     INFO -        run() - Running task 'Counting to 5 and using the say function to greet and say bye' with args {'number': 5, 'greet': 'Hello, there', 'bye': 'Bye now'} on 2 hosts
+2022-06-07 13:05:23,418 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'The say function is called with the greet parameter' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\anaconda\envs\nornir_env\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\AppData\Local\Temp\ipykernel_22584\2856640965.py", line 5, in say_new
+    raise Exception(f"An Exception was raised on host {exception_host_name}")
+Exception: An Exception was raised on host host2.cmh
+
+2022-06-07 13:05:23,418 - nornir.core.task -    ERROR -      start() - Host 'host2.cmh': task 'Counting to 5 and using the say function to greet and say bye' failed with traceback:
+Traceback (most recent call last):
+  File "C:\Users\roman\Python\anaconda\envs\nornir_env\lib\site-packages\nornir\core\task.py", line 99, in start
+    r = self.task(self, **self.params)
+  File "C:\Users\roman\AppData\Local\Temp\ipykernel_22584\3508629752.py", line 5, in greet_and_count_new
+    task.run(  # call the say function
+  File "C:\Users\roman\Python\anaconda\envs\nornir_env\lib\site-packages\nornir\core\task.py", line 174, in run
+    raise NornirSubTaskError(task=run_task, result=r)
+nornir.core.exceptions.NornirSubTaskError: Subtask: The say function is called with the greet parameter (failed)
+
+
+2022-06-07 13:05:23,650 -  nornir.core -     INFO -        run() - Running task 'new_task' with args {} on 2 hosts
+2022-06-07 13:05:23,680 -  nornir.core -     INFO -        run() - Running task 'new_task' with args {} on 2 hosts
+2022-06-07 13:05:23,696 -  nornir.core -     INFO -        run() - Running task 'new_task' with args {} on 2 hosts
+2022-06-07 13:05:23,824 -  nornir.core -     INFO -        run() - Running task 'hi!' with args {'greet': 'hi'} on 12 hosts
+2022-06-07 13:05:23,858 -  nornir.core -     INFO -        run() - Running task 'bye!' with args {'greet': 'bye'} on 12 hosts
